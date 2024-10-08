@@ -61,9 +61,10 @@
 
 ## Screenshots
 
-![Home Screen](https://github.com/Himanshu-00/HealthCare/blob/main/Healthcare/images/Home.png)
-![Appt Screen](https://github.com/Himanshu-00/Healthcare/blob/main/Healthcare/images/upcoming.png)
-![Appt Screen](https://github.com/Himanshu-00/Healthcare/blob/main/Healthcare/images/profile.png)
+<img src="https://github.com/Himanshu-00/HealthCare/blob/main/Healthcare/images/Home.png" alt="Home Screen" width="300"/>
+<img src="https://github.com/Himanshu-00/Healthcare/blob/main/Healthcare/images/upcoming.png" alt="Upcoming Appointments Screen" width="300"/>
+<img src="https://github.com/Himanshu-00/Healthcare/blob/main/Healthcare/images/profile.png" alt="Profile Screen" width="300"/>
+
 
 
 ## Installation
