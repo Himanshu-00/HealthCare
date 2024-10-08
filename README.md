@@ -58,6 +58,14 @@
 - **State Management**: SwiftUI's State and Environment Variables
 - **UI Framework**: SwiftUI with custom views, components, and layouts
 
+
+## Screenshots
+
+![Home Screen](https://github.com/Himanshu-00/Healthcare/images/Home.png)
+![Appt Screen](https://github.com/Himanshu-00/Healthcare/images/upcoming.png)
+![Appt Screen](https://github.com/Himanshu-00/Healthcare/images/profile.png)
+
+
 ## Installation
 
 1. Clone the repository:
