@@ -61,9 +61,20 @@
 
 ## Screenshots
 
-<img src="https://github.com/Himanshu-00/HealthCare/blob/main/Healthcare/images/Home.png" alt="Home Screen" width="300"/>
-<img src="https://github.com/Himanshu-00/Healthcare/blob/main/Healthcare/images/upcoming.png" alt="Upcoming Appointments Screen" width="300"/>
-<img src="https://github.com/Himanshu-00/Healthcare/blob/main/Healthcare/images/profile.png" alt="Profile Screen" width="300"/>
+<div style="display: flex; flex-wrap: wrap; gap: 10px;">
+    <div style="flex: 1 1 calc(50% - 10px);">
+        <img src="https://github.com/Himanshu-00/HealthCare/blob/main/Healthcare/images/Home.png" alt="Home Screen" width="100%"/>
+    </div>
+    <div style="flex: 1 1 calc(50% - 10px);">
+        <img src="https://github.com/Himanshu-00/HealthCare/blob/main/Healthcare/images/upcoming.png" alt="Upcoming Appointments Screen" width="100%"/>
+    </div>
+    <div style="flex: 1 1 calc(50% - 10px);">
+        <img src="https://github.com/Himanshu-00/HealthCare/blob/main/Healthcare/images/profile.png" alt="Profile Screen" width="100%"/>
+    </div>
+    <div style="flex: 1 1 calc(50% - 10px);">
+        <img src="https://via.placeholder.com/150" alt="Placeholder" width="100%"/> <!-- Example placeholder for a fourth image -->
+    </div>
+</div>
 
 
 
