@@ -62,8 +62,8 @@
 ## Screenshots
 
 ![Home Screen](https://github.com/Himanshu-00/HealthCare/blob/main/Healthcare/images/Home.png)
-![Appt Screen](https://github.com/Himanshu-00/Healthcare/images/upcoming.png)
-![Appt Screen](https://github.com/Himanshu-00/Healthcare/images/profile.png)
+![Appt Screen](https://github.com/Himanshu-00/Healthcare/blob/main/Healthcare/images/upcoming.png)
+![Appt Screen](https://github.com/Himanshu-00/Healthcare/blob/main/Healthcare/images/profile.png)
 
 
 ## Installation
