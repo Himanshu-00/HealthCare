@@ -1,0 +1,768 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EC373ABB2C84D3FE0096BE9F /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC373ABA2C84D3FE0096BE9F /* MainView.swift */; };
+		EC4867FB2BA374DD00784ACF /* FindDoctor.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC4867FA2BA374DD00784ACF /* FindDoctor.swift */; };
+		EC4867FD2BA37A4F00784ACF /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = EC4867FC2BA37A4F00784ACF /* FirebaseFirestoreSwift */; };
+		EC4867FF2BA39C3300784ACF /* Details.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC4867FE2BA39C3300784ACF /* Details.swift */; };
+		EC5669CE2BE162F600BDD7A2 /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC5669CD2BE162F600BDD7A2 /* SwiftUIView.swift */; };
+		EC5A1D252C84E30E0018666C /* GoogleGenerativeAI in Frameworks */ = {isa = PBXBuildFile; productRef = EC5A1D242C84E30E0018666C /* GoogleGenerativeAI */; };
+		EC5A1D272C84E35B0018666C /* GenrativeAI.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC5A1D262C84E35B0018666C /* GenrativeAI.swift */; };
+		EC5A1D2A2C84E8100018666C /* GenerativeAI-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = EC5A1D292C84E8100018666C /* GenerativeAI-Info.plist */; };
+		EC5A1D2C2C84F21E0018666C /* apiKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC5A1D2B2C84F21E0018666C /* apiKey.swift */; };
+		EC7B687E2BA1CE65000F3789 /* HealthcareApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC7B687D2BA1CE65000F3789 /* HealthcareApp.swift */; };
+		EC7B68802BA1CE65000F3789 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC7B687F2BA1CE65000F3789 /* LoginView.swift */; };
+		EC7B68822BA1CE67000F3789 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC7B68812BA1CE67000F3789 /* Assets.xcassets */; };
+		EC7B68852BA1CE67000F3789 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC7B68842BA1CE67000F3789 /* Preview Assets.xcassets */; };
+		EC7B688F2BA1CE68000F3789 /* HealthcareTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC7B688E2BA1CE68000F3789 /* HealthcareTests.swift */; };
+		EC7B68992BA1CE68000F3789 /* HealthcareUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC7B68982BA1CE68000F3789 /* HealthcareUITests.swift */; };
+		EC7B689B2BA1CE68000F3789 /* HealthcareUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC7B689A2BA1CE68000F3789 /* HealthcareUITestsLaunchTests.swift */; };
+		EC7B68A92BA1CF53000F3789 /* Register.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC7B68A82BA1CF53000F3789 /* Register.swift */; };
+		EC7B68AB2BA1CFAD000F3789 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC7B68AA2BA1CFAD000F3789 /* Home.swift */; };
+		EC9AE1632BE3CAC500A55C7F /* HealthArticlesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC9AE1622BE3CAC500A55C7F /* HealthArticlesView.swift */; };
+		ECB143992BA9996800722254 /* LabTestActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB143982BA9996800722254 /* LabTestActivity.swift */; };
+		ECB1439B2BA9996E00722254 /* BookAppointment.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB1439A2BA9996E00722254 /* BookAppointment.swift */; };
+		ECB9AEDF2BA2265B005DBE2D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = ECB9AEDE2BA2265B005DBE2D /* GoogleService-Info.plist */; };
+		ECB9AEE22BA227F7005DBE2D /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = ECB9AEE12BA227F7005DBE2D /* FirebaseAuth */; };
+		ECB9AEE42BA227F7005DBE2D /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = ECB9AEE32BA227F7005DBE2D /* FirebaseDatabase */; };
+		ECB9AEE62BA227F7005DBE2D /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = ECB9AEE52BA227F7005DBE2D /* FirebaseFirestore */; };
+		ECB9AEE82BA227F7005DBE2D /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = ECB9AEE72BA227F7005DBE2D /* FirebaseStorage */; };
+		ECB9AEEA2BA22824005DBE2D /* Firebase.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB9AEE92BA22824005DBE2D /* Firebase.swift */; };
+		ECB9AEEC2BA2417F005DBE2D /* DocHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB9AEEB2BA2417F005DBE2D /* DocHomeView.swift */; };
+		ECBCF25D2BB7E85F00D22FDE /* Zoom.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECBCF25C2BB7E85F00D22FDE /* Zoom.swift */; };
+		ECDD3F0E2BA6E2FE00A36CDF /* Medicine.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECDD3F0D2BA6E2FE00A36CDF /* Medicine.swift */; };
+		ECDD3F142BA6ED6D00A36CDF /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = ECDD3F132BA6ED6D00A36CDF /* SDWebImageSwiftUI */; };
+		ECEC2A702C8444FB007B8FA1 /* Maps.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECEC2A6F2C8444FB007B8FA1 /* Maps.swift */; };
+		ECEC2A722C844FFE007B8FA1 /* AppointmentService.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECEC2A712C844FFE007B8FA1 /* AppointmentService.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EC7B688B2BA1CE68000F3789 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC7B68722BA1CE65000F3789 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC7B68792BA1CE65000F3789;
+			remoteInfo = Healthcare;
+		};
+		EC7B68952BA1CE68000F3789 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC7B68722BA1CE65000F3789 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC7B68792BA1CE65000F3789;
+			remoteInfo = Healthcare;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EC373ABA2C84D3FE0096BE9F /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		EC4867FA2BA374DD00784ACF /* FindDoctor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FindDoctor.swift; sourceTree = "<group>"; };
+		EC4867FE2BA39C3300784ACF /* Details.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Details.swift; sourceTree = "<group>"; };
+		EC5669CD2BE162F600BDD7A2 /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
+		EC5A1D262C84E35B0018666C /* GenrativeAI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenrativeAI.swift; sourceTree = "<group>"; };
+		EC5A1D282C84E46D0018666C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		EC5A1D292C84E8100018666C /* GenerativeAI-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GenerativeAI-Info.plist"; sourceTree = "<group>"; };
+		EC5A1D2B2C84F21E0018666C /* apiKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = apiKey.swift; sourceTree = "<group>"; };
+		EC7B687A2BA1CE65000F3789 /* Healthcare.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Healthcare.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC7B687D2BA1CE65000F3789 /* HealthcareApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthcareApp.swift; sourceTree = "<group>"; };
+		EC7B687F2BA1CE65000F3789 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		EC7B68812BA1CE67000F3789 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EC7B68842BA1CE67000F3789 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EC7B688A2BA1CE68000F3789 /* HealthcareTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HealthcareTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC7B688E2BA1CE68000F3789 /* HealthcareTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthcareTests.swift; sourceTree = "<group>"; };
+		EC7B68942BA1CE68000F3789 /* HealthcareUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HealthcareUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC7B68982BA1CE68000F3789 /* HealthcareUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthcareUITests.swift; sourceTree = "<group>"; };
+		EC7B689A2BA1CE68000F3789 /* HealthcareUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthcareUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		EC7B68A82BA1CF53000F3789 /* Register.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Register.swift; sourceTree = "<group>"; };
+		EC7B68AA2BA1CFAD000F3789 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		EC9AE1622BE3CAC500A55C7F /* HealthArticlesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthArticlesView.swift; sourceTree = "<group>"; };
+		ECB143982BA9996800722254 /* LabTestActivity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LabTestActivity.swift; sourceTree = "<group>"; };
+		ECB1439A2BA9996E00722254 /* BookAppointment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookAppointment.swift; sourceTree = "<group>"; };
+		ECB9AEDE2BA2265B005DBE2D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		ECB9AEE92BA22824005DBE2D /* Firebase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Firebase.swift; sourceTree = "<group>"; };
+		ECB9AEEB2BA2417F005DBE2D /* DocHomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocHomeView.swift; sourceTree = "<group>"; };
+		ECBCF25C2BB7E85F00D22FDE /* Zoom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Zoom.swift; sourceTree = "<group>"; };
+		ECDD3F0D2BA6E2FE00A36CDF /* Medicine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Medicine.swift; sourceTree = "<group>"; };
+		ECEC2A6F2C8444FB007B8FA1 /* Maps.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Maps.swift; sourceTree = "<group>"; };
+		ECEC2A712C844FFE007B8FA1 /* AppointmentService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppointmentService.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EC7B68772BA1CE65000F3789 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECDD3F142BA6ED6D00A36CDF /* SDWebImageSwiftUI in Frameworks */,
+				EC4867FD2BA37A4F00784ACF /* FirebaseFirestoreSwift in Frameworks */,
+				ECB9AEE42BA227F7005DBE2D /* FirebaseDatabase in Frameworks */,
+				ECB9AEE82BA227F7005DBE2D /* FirebaseStorage in Frameworks */,
+				EC5A1D252C84E30E0018666C /* GoogleGenerativeAI in Frameworks */,
+				ECB9AEE22BA227F7005DBE2D /* FirebaseAuth in Frameworks */,
+				ECB9AEE62BA227F7005DBE2D /* FirebaseFirestore in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC7B68872BA1CE68000F3789 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC7B68912BA1CE68000F3789 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EC7B68712BA1CE65000F3789 = {
+			isa = PBXGroup;
+			children = (
+				EC7B687C2BA1CE65000F3789 /* Healthcare */,
+				EC7B688D2BA1CE68000F3789 /* HealthcareTests */,
+				EC7B68972BA1CE68000F3789 /* HealthcareUITests */,
+				EC7B687B2BA1CE65000F3789 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EC7B687B2BA1CE65000F3789 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EC7B687A2BA1CE65000F3789 /* Healthcare.app */,
+				EC7B688A2BA1CE68000F3789 /* HealthcareTests.xctest */,
+				EC7B68942BA1CE68000F3789 /* HealthcareUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EC7B687C2BA1CE65000F3789 /* Healthcare */ = {
+			isa = PBXGroup;
+			children = (
+				EC5A1D282C84E46D0018666C /* Info.plist */,
+				EC7B68A82BA1CF53000F3789 /* Register.swift */,
+				ECB9AEE92BA22824005DBE2D /* Firebase.swift */,
+				ECDD3F0D2BA6E2FE00A36CDF /* Medicine.swift */,
+				EC7B687D2BA1CE65000F3789 /* HealthcareApp.swift */,
+				ECEC2A6F2C8444FB007B8FA1 /* Maps.swift */,
+				EC5A1D262C84E35B0018666C /* GenrativeAI.swift */,
+				EC5A1D2B2C84F21E0018666C /* apiKey.swift */,
+				EC5A1D292C84E8100018666C /* GenerativeAI-Info.plist */,
+				ECB1439A2BA9996E00722254 /* BookAppointment.swift */,
+				ECEC2A712C844FFE007B8FA1 /* AppointmentService.swift */,
+				EC4867FA2BA374DD00784ACF /* FindDoctor.swift */,
+				ECBCF25C2BB7E85F00D22FDE /* Zoom.swift */,
+				ECB143982BA9996800722254 /* LabTestActivity.swift */,
+				EC4867FE2BA39C3300784ACF /* Details.swift */,
+				EC7B687F2BA1CE65000F3789 /* LoginView.swift */,
+				EC5669CD2BE162F600BDD7A2 /* SwiftUIView.swift */,
+				EC373ABA2C84D3FE0096BE9F /* MainView.swift */,
+				EC7B68AA2BA1CFAD000F3789 /* Home.swift */,
+				ECB9AEEB2BA2417F005DBE2D /* DocHomeView.swift */,
+				ECB9AEDE2BA2265B005DBE2D /* GoogleService-Info.plist */,
+				EC7B68812BA1CE67000F3789 /* Assets.xcassets */,
+				EC7B68832BA1CE67000F3789 /* Preview Content */,
+				EC9AE1622BE3CAC500A55C7F /* HealthArticlesView.swift */,
+			);
+			path = Healthcare;
+			sourceTree = "<group>";
+		};
+		EC7B68832BA1CE67000F3789 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				EC7B68842BA1CE67000F3789 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EC7B688D2BA1CE68000F3789 /* HealthcareTests */ = {
+			isa = PBXGroup;
+			children = (
+				EC7B688E2BA1CE68000F3789 /* HealthcareTests.swift */,
+			);
+			path = HealthcareTests;
+			sourceTree = "<group>";
+		};
+		EC7B68972BA1CE68000F3789 /* HealthcareUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EC7B68982BA1CE68000F3789 /* HealthcareUITests.swift */,
+				EC7B689A2BA1CE68000F3789 /* HealthcareUITestsLaunchTests.swift */,
+			);
+			path = HealthcareUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EC7B68792BA1CE65000F3789 /* Healthcare */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC7B689E2BA1CE68000F3789 /* Build configuration list for PBXNativeTarget "Healthcare" */;
+			buildPhases = (
+				EC7B68762BA1CE65000F3789 /* Sources */,
+				EC7B68772BA1CE65000F3789 /* Frameworks */,
+				EC7B68782BA1CE65000F3789 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Healthcare;
+			packageProductDependencies = (
+				ECB9AEE12BA227F7005DBE2D /* FirebaseAuth */,
+				ECB9AEE32BA227F7005DBE2D /* FirebaseDatabase */,
+				ECB9AEE52BA227F7005DBE2D /* FirebaseFirestore */,
+				ECB9AEE72BA227F7005DBE2D /* FirebaseStorage */,
+				EC4867FC2BA37A4F00784ACF /* FirebaseFirestoreSwift */,
+				ECDD3F132BA6ED6D00A36CDF /* SDWebImageSwiftUI */,
+				EC5A1D242C84E30E0018666C /* GoogleGenerativeAI */,
+			);
+			productName = Healthcare;
+			productReference = EC7B687A2BA1CE65000F3789 /* Healthcare.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EC7B68892BA1CE68000F3789 /* HealthcareTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC7B68A12BA1CE68000F3789 /* Build configuration list for PBXNativeTarget "HealthcareTests" */;
+			buildPhases = (
+				EC7B68862BA1CE68000F3789 /* Sources */,
+				EC7B68872BA1CE68000F3789 /* Frameworks */,
+				EC7B68882BA1CE68000F3789 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC7B688C2BA1CE68000F3789 /* PBXTargetDependency */,
+			);
+			name = HealthcareTests;
+			productName = HealthcareTests;
+			productReference = EC7B688A2BA1CE68000F3789 /* HealthcareTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EC7B68932BA1CE68000F3789 /* HealthcareUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC7B68A42BA1CE68000F3789 /* Build configuration list for PBXNativeTarget "HealthcareUITests" */;
+			buildPhases = (
+				EC7B68902BA1CE68000F3789 /* Sources */,
+				EC7B68912BA1CE68000F3789 /* Frameworks */,
+				EC7B68922BA1CE68000F3789 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC7B68962BA1CE68000F3789 /* PBXTargetDependency */,
+			);
+			name = HealthcareUITests;
+			productName = HealthcareUITests;
+			productReference = EC7B68942BA1CE68000F3789 /* HealthcareUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EC7B68722BA1CE65000F3789 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					EC7B68792BA1CE65000F3789 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					EC7B68892BA1CE68000F3789 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = EC7B68792BA1CE65000F3789;
+					};
+					EC7B68932BA1CE68000F3789 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = EC7B68792BA1CE65000F3789;
+					};
+				};
+			};
+			buildConfigurationList = EC7B68752BA1CE65000F3789 /* Build configuration list for PBXProject "Healthcare" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EC7B68712BA1CE65000F3789;
+			packageReferences = (
+				ECB9AEE02BA227F7005DBE2D /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				ECDD3F122BA6ED6D00A36CDF /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */,
+				EC5A1D232C84E30E0018666C /* XCRemoteSwiftPackageReference "generative-ai-swift" */,
+			);
+			productRefGroup = EC7B687B2BA1CE65000F3789 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EC7B68792BA1CE65000F3789 /* Healthcare */,
+				EC7B68892BA1CE68000F3789 /* HealthcareTests */,
+				EC7B68932BA1CE68000F3789 /* HealthcareUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EC7B68782BA1CE65000F3789 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC7B68852BA1CE67000F3789 /* Preview Assets.xcassets in Resources */,
+				EC7B68822BA1CE67000F3789 /* Assets.xcassets in Resources */,
+				EC5A1D2A2C84E8100018666C /* GenerativeAI-Info.plist in Resources */,
+				ECB9AEDF2BA2265B005DBE2D /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC7B68882BA1CE68000F3789 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC7B68922BA1CE68000F3789 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EC7B68762BA1CE65000F3789 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC5669CE2BE162F600BDD7A2 /* SwiftUIView.swift in Sources */,
+				ECB9AEEC2BA2417F005DBE2D /* DocHomeView.swift in Sources */,
+				ECB143992BA9996800722254 /* LabTestActivity.swift in Sources */,
+				ECEC2A722C844FFE007B8FA1 /* AppointmentService.swift in Sources */,
+				ECBCF25D2BB7E85F00D22FDE /* Zoom.swift in Sources */,
+				ECDD3F0E2BA6E2FE00A36CDF /* Medicine.swift in Sources */,
+				ECB9AEEA2BA22824005DBE2D /* Firebase.swift in Sources */,
+				EC5A1D272C84E35B0018666C /* GenrativeAI.swift in Sources */,
+				EC7B68A92BA1CF53000F3789 /* Register.swift in Sources */,
+				EC7B68802BA1CE65000F3789 /* LoginView.swift in Sources */,
+				EC5A1D2C2C84F21E0018666C /* apiKey.swift in Sources */,
+				EC7B68AB2BA1CFAD000F3789 /* Home.swift in Sources */,
+				EC9AE1632BE3CAC500A55C7F /* HealthArticlesView.swift in Sources */,
+				EC373ABB2C84D3FE0096BE9F /* MainView.swift in Sources */,
+				EC7B687E2BA1CE65000F3789 /* HealthcareApp.swift in Sources */,
+				EC4867FF2BA39C3300784ACF /* Details.swift in Sources */,
+				EC4867FB2BA374DD00784ACF /* FindDoctor.swift in Sources */,
+				ECB1439B2BA9996E00722254 /* BookAppointment.swift in Sources */,
+				ECEC2A702C8444FB007B8FA1 /* Maps.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC7B68862BA1CE68000F3789 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC7B688F2BA1CE68000F3789 /* HealthcareTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC7B68902BA1CE68000F3789 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC7B68992BA1CE68000F3789 /* HealthcareUITests.swift in Sources */,
+				EC7B689B2BA1CE68000F3789 /* HealthcareUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EC7B688C2BA1CE68000F3789 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC7B68792BA1CE65000F3789 /* Healthcare */;
+			targetProxy = EC7B688B2BA1CE68000F3789 /* PBXContainerItemProxy */;
+		};
+		EC7B68962BA1CE68000F3789 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC7B68792BA1CE65000F3789 /* Healthcare */;
+			targetProxy = EC7B68952BA1CE68000F3789 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		EC7B689C2BA1CE68000F3789 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EC7B689D2BA1CE68000F3789 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EC7B689F2BA1CE68000F3789 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Healthcare/Preview Content\"";
+				DEVELOPMENT_TEAM = PARUNMQZGY;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Healthcare/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = AppIcon;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = apple.Healthcare;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		EC7B68A02BA1CE68000F3789 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Healthcare/Preview Content\"";
+				DEVELOPMENT_TEAM = PARUNMQZGY;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Healthcare/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = AppIcon;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = apple.Healthcare;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		EC7B68A22BA1CE68000F3789 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = apple.HealthcareTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Healthcare.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Healthcare";
+			};
+			name = Debug;
+		};
+		EC7B68A32BA1CE68000F3789 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = apple.HealthcareTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Healthcare.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Healthcare";
+			};
+			name = Release;
+		};
+		EC7B68A52BA1CE68000F3789 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = apple.HealthcareUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Healthcare;
+			};
+			name = Debug;
+		};
+		EC7B68A62BA1CE68000F3789 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = apple.HealthcareUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Healthcare;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EC7B68752BA1CE65000F3789 /* Build configuration list for PBXProject "Healthcare" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC7B689C2BA1CE68000F3789 /* Debug */,
+				EC7B689D2BA1CE68000F3789 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC7B689E2BA1CE68000F3789 /* Build configuration list for PBXNativeTarget "Healthcare" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC7B689F2BA1CE68000F3789 /* Debug */,
+				EC7B68A02BA1CE68000F3789 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC7B68A12BA1CE68000F3789 /* Build configuration list for PBXNativeTarget "HealthcareTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC7B68A22BA1CE68000F3789 /* Debug */,
+				EC7B68A32BA1CE68000F3789 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC7B68A42BA1CE68000F3789 /* Build configuration list for PBXNativeTarget "HealthcareUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC7B68A52BA1CE68000F3789 /* Debug */,
+				EC7B68A62BA1CE68000F3789 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		EC5A1D232C84E30E0018666C /* XCRemoteSwiftPackageReference "generative-ai-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/google/generative-ai-swift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.5.6;
+			};
+		};
+		ECB9AEE02BA227F7005DBE2D /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.22.1;
+			};
+		};
+		ECDD3F122BA6ED6D00A36CDF /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImageSwiftUI";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		EC4867FC2BA37A4F00784ACF /* FirebaseFirestoreSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = ECB9AEE02BA227F7005DBE2D /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestoreSwift;
+		};
+		EC5A1D242C84E30E0018666C /* GoogleGenerativeAI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EC5A1D232C84E30E0018666C /* XCRemoteSwiftPackageReference "generative-ai-swift" */;
+			productName = GoogleGenerativeAI;
+		};
+		ECB9AEE12BA227F7005DBE2D /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = ECB9AEE02BA227F7005DBE2D /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		ECB9AEE32BA227F7005DBE2D /* FirebaseDatabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = ECB9AEE02BA227F7005DBE2D /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabase;
+		};
+		ECB9AEE52BA227F7005DBE2D /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = ECB9AEE02BA227F7005DBE2D /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		ECB9AEE72BA227F7005DBE2D /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = ECB9AEE02BA227F7005DBE2D /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+		ECDD3F132BA6ED6D00A36CDF /* SDWebImageSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = ECDD3F122BA6ED6D00A36CDF /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */;
+			productName = SDWebImageSwiftUI;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = EC7B68722BA1CE65000F3789 /* Project object */;
+}
